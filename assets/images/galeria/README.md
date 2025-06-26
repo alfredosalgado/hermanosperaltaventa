@@ -1,4 +1,4 @@
-# Galería de Proyectos - Hermanos Peralta Adocretos
+# Galería de Proyectos - Mundo Adocretos
 
 ## Instrucciones para agregar imágenes
 
