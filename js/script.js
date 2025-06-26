@@ -202,6 +202,82 @@ const productos = {
           rendimiento: "2 unidades por metro lineal" // 100 cm / 50 cm = 2
         }
       ],
+      sanitario: [
+        {
+          nombre: "Marco y Tapa Cuadrada 40x40",
+          img: "../assets/images/sanitario/marco_tapa_40x40.png",
+          forma: "Cuadrada",
+          medidas: "40x40 CM",
+          color: "N/A", // Color no especificado, a menudo son de hierro fundido o polímero
+          rendimiento: "1 unidad" // Se vende por unidad
+        },
+        {
+          nombre: "Marco y Tapa Cuadrada 60x60",
+          img: "../assets/images/sanitario/marco_tapa_60x60.png",
+          forma: "Cuadrada",
+          medidas: "60x60 CM",
+          color: "N/A",
+          rendimiento: "1 unidad"
+        }
+      ],
+      piedras: [
+        {
+          nombre: "Piedra Blanca Decorativa",
+          img: "../assets/images/piedras/piedra_blanca.jpg",
+          forma: "Irregular",
+          medidas: "Arroz, Maíz, Almendra, Nuez",
+          color: "Blanco",
+          rendimiento: "Saco de 25 kilos (rendimiento varía según el tamaño de la piedra y el espesor de la capa)"
+        },
+        {
+          nombre: "Piedra Amarilla Decorativa",
+          img: "../assets/images/piedras/piedra_amarilla.jpg",
+          forma: "Irregular",
+          medidas: "Arroz, Maíz, Almendra, Nuez",
+          color: "Amarillo",
+          rendimiento: "Saco de 25 kilos (rendimiento varía según el tamaño de la piedra y el espesor de la capa)"
+        },
+        {
+          nombre: "Piedra Roja Decorativa",
+          img: "../assets/images/piedras/piedra_roja.jpg",
+          forma: "Irregular",
+          medidas: "Arroz, Maíz, Almendra, Nuez",
+          color: "Rojo",
+          rendimiento: "Saco de 25 kilos (rendimiento varía según el tamaño de la piedra y el espesor de la capa)"
+        },
+        {
+          nombre: "Piedra Negra Decorativa",
+          img: "../assets/images/piedras/piedra_negra.jpg",
+          forma: "Irregular",
+          medidas: "Arroz, Maíz, Almendra, Nuez",
+          color: "Negro",
+          rendimiento: "Saco de 25 kilos (rendimiento varía según el tamaño de la piedra y el espesor de la capa)"
+        },
+        {
+          nombre: "Piedra Serena Decorativa",
+          img: "../assets/images/piedras/piedra_serena.jpg",
+          forma: "Irregular",
+          medidas: "Arroz, Maíz, Almendra, Nuez",
+          color: "Gris", // Color típico de la piedra serena
+          rendimiento: "Saco de 25 kilos (rendimiento varía según el tamaño de la piedra y el espesor de la capa)"
+        },
+        {
+          nombre: "Piedra Negra Brillante Decorativa",
+          img: "../assets/images/piedras/piedra_negra_brillante.jpg",
+          forma: "Irregular",
+          medidas: "Arroz, Maíz, Almendra, Nuez",
+          color: "Negro Brillante",
+          rendimiento: "Saco de 25 kilos (rendimiento varía según el tamaño de la piedra y el espesor de la capa)"
+        },
+        {
+          nombre: "Cuarzo Decorativo",
+          img: "../assets/images/piedras/cuarzo.jpg",
+          forma: "Irregular",
+          medidas: "Arroz, Maíz, Almendra, Nuez",
+          color: "N/A", // El cuarzo puede tener varios colores
+          rendimiento: "Saco de 25 kilos (rendimiento varía según el tamaño de la piedra y el espesor de la capa)"
+        }
+      ],
 };
 
 // Variables globales
