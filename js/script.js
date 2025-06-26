@@ -2,206 +2,206 @@
 const productos = {
     adocretos: [
         {
-            nombre: "Adocreto Rectangular Gris",
-            img: "assets/images/adocreto-rect-gris.jpg",
-            forma: "Rectangular",
-            medidas: "20x10x6 cm",
-            color: "Gris",
-            rendimiento: "50 unidades por m²"
+          nombre: "Adocreto Rectangular Gris",
+          img: "../assets/images/adocretos/adocreto_rectangular_gris.png",
+          forma: "Rectangular",
+          medidas: "20x10x6 cm",
+          color: "Gris",
+          rendimiento: "50 unidades x M2"
         },
         {
-            nombre: "Adocreto Rectangular Rojo",
-            img: "assets/images/adocreto-rect-rojo.jpg",
-            forma: "Rectangular",
-            medidas: "20x10x6 cm",
-            color: "Rojo",
-            rendimiento: "50 unidades por m²"
+          nombre: "Adocreto Rectangular Color",
+          img: "../assets/images/adocretos/adocreto_rectangular_color.png",
+          forma: "Rectangular",
+          medidas: "20x10x6 cm",
+          color: "Color",
+          rendimiento: "50 unidades x M2"
         },
         {
-            nombre: "Adocreto Hexagonal Gris",
-            img: "assets/images/adocreto-hex-gris.jpg",
-            forma: "Hexagonal",
-            medidas: "20x20x6 cm",
-            color: "Gris",
-            rendimiento: "25 unidades por m²"
+          nombre: "Adocreto Hexagonal Gris",
+          img: "../assets/images/adocretos/adocreto_hexagonal_gris.png",
+          forma: "Hexagonal",
+          medidas: "20x25 cm",
+          color: "Gris",
+          rendimiento: "24 unidades x metro cuadrado"
         },
         {
-            nombre: "Adocreto Cuadrado Beige",
-            img: "assets/images/adocreto-cuad-beige.jpg",
-            forma: "Cuadrado",
-            medidas: "20x20x6 cm",
-            color: "Beige",
-            rendimiento: "25 unidades por m²"
+          nombre: "Adocreto Hexagonal Color",
+          img: "../assets/images/adocretos/adocreto_hexagonal_color.jpg",
+          forma: "Hexagonal",
+          medidas: "20x25 cm",
+          color: "Color",
+          rendimiento: "24 unidades x metro cuadrado"
         },
         {
-            nombre: "Adocreto Ondulado Gris",
-            img: "assets/images/adocreto-ond-gris.jpg",
-            forma: "Ondulado",
-            medidas: "40x20x6 cm",
-            color: "Gris",
-            rendimiento: "12.5 unidades por m²"
+          nombre: "Adocreto Europa",
+          img: "../assets/images/adocretos/adocreto_europa.png",
+          forma: "Irregular",
+          medidas: "22x11x6 cm",
+          color: "Color",
+          rendimiento: "40 unidades x metro cuadrado"
         },
         {
-            nombre: "Adocreto Tipo Césped",
-            img: "assets/images/adocreto-cesped.jpg",
-            forma: "Especial",
-            medidas: "60x40x8 cm",
-            color: "Gris",
-            rendimiento: "4.2 unidades por m²"
+          nombre: "Adocreto Rústico",
+          img: "../assets/images/adocretos/adocreto_rustico.png",
+          forma: "Rectangular",
+          medidas: "14x20x6 cm",
+          color: "Gris y Color",
+          rendimiento: "35 unidades x metro cuadrado"
+        },
+        {
+          nombre: "Adocreto Piedra Serena",
+          img: "../assets/images/adocretos/adocreto_piedra_serena.png",
+          forma: "Rectangular",
+          medidas: "20x10x6 cm",
+          color: "N/A", // El color no está especificado en tu texto
+          rendimiento: "50 unidades m2"
         }
-    ],
-    pastelones: [
+      ],
+      pastelones: [
         {
-            nombre: "Pastelón Liso 40x40",
-            img: "assets/images/pastelon-liso-40.jpg",
-            forma: "Cuadrado",
-            medidas: "40x40x4 cm",
-            color: "Gris",
-            rendimiento: "6.25 unidades por m²"
+          nombre: "Pastelón Diseño Color a Elección",
+          img: "../assets/images/pastelones/pastelones_diseno_color.png",
+          forma: "Cuadrado",
+          medidas: "40x40x4 CM",
+          color: "A elección",
+          rendimiento: "6.25 unidades x M2"
         },
         {
-            nombre: "Pastelón Liso 50x50",
-            img: "assets/images/pastelon-liso-50.jpg",
-            forma: "Cuadrado",
-            medidas: "50x50x4 cm",
-            color: "Gris",
-            rendimiento: "4 unidades por m²"
+          nombre: "Pastelón Piedra Serena Rojo",
+          img: "../assets/images/pastelones/pastelones_piedra_serena_rojo.png",
+          forma: "Cuadrado",
+          medidas: "40x40x4 CM",
+          color: "Rojo",
+          rendimiento: "6.25 unidades x M2"
         },
         {
-            nombre: "Pastelón Texturado 40x40",
-            img: "assets/images/pastelon-text-40.jpg",
-            forma: "Cuadrado",
-            medidas: "40x40x4 cm",
-            color: "Beige",
-            rendimiento: "6.25 unidades por m²"
+          nombre: "Pastelón Piedra Río Maipo",
+          img: "../assets/images/pastelones/pastelones_piedra_rio_maipo.png",
+          forma: "Cuadrado",
+          medidas: "40x40x4 CM",
+          color: "N/A",
+          rendimiento: "6.25 unidades x M2"
         },
         {
-            nombre: "Pastelón Rectangular 60x30",
-            img: "assets/images/pastelon-rect-60.jpg",
-            forma: "Rectangular",
-            medidas: "60x30x4 cm",
-            color: "Gris",
-            rendimiento: "5.5 unidades por m²"
+          nombre: "Pastelón Grano Fulget",
+          img: "../assets/images/pastelones/pastelones_grano_fulget.png",
+          forma: "Cuadrado",
+          medidas: "40x40x4 CM y 50x50x4 CM",
+          color: "N/A",
+          rendimiento: "6.25 unidades x M2 (para 40x40) y 4 unidades x M2 (para 50x50)"
         },
         {
-            nombre: "Pastelón Antideslizante 40x40",
-            img: "assets/images/pastelon-antid-40.jpg",
-            forma: "Cuadrado",
-            medidas: "40x40x4 cm",
-            color: "Rojo",
-            rendimiento: "6.25 unidades por m²"
+          nombre: "Pastelón Piedra Serena",
+          img: "../assets/images/pastelones/pastelones_piedra_serena.png",
+          forma: "Cuadrado",
+          medidas: "40x40x4 CM y 50x50x4 CM",
+          color: "N/A",
+          rendimiento: "6.25 unidades x M2 (para 40x40) y 4 unidades x M2 (para 50x50)"
+        },
+        {
+          nombre: "Pastelón Cuadrado Gris Liso",
+          img: "../assets/images/pastelones/pastelones_cuadrado_gris_liso.png",
+          forma: "Cuadrado",
+          medidas: "40x40x4 CM",
+          color: "Gris",
+          rendimiento: "6.25 unidades x M2"
+        },
+        {
+          nombre: "Pastelón Texturado",
+          img: "../assets/images/pastelones/pastelones_texturado.png",
+          forma: "Cuadrado",
+          medidas: "40x40x4 CM",
+          color: "N/A",
+          rendimiento: "6.25 unidades x M2"
+        },
+        {
+          nombre: "Pastelón Imitación Durmiente",
+          img: "../assets/images/pastelones/pastelones_imitacion_durmiente.jpg",
+          forma: "Rectangular",
+          medidas: "60x30x4 CM y 80x30x5 CM",
+          color: "Gris, Negro, Café",
+          rendimiento: "5.56 unidades x M2 (para 60x30) y 4.17 unidades x M2 (para 80x30)"
+        },
+        {
+          nombre: "Pastelón Rectangular Gris Liso y Color",
+          img: "../assets/images/pastelones/pastelones_rectangular_gris_color.jpg",
+          forma: "Rectangular",
+          medidas: "60x30x4 CM, 80x30x5 CM, 90x40x4 CM, 100x30x5 CM, 120x30x5 CM",
+          color: "Gris Liso y Color",
+          rendimiento: "5.56 unidades x M2 (60x30), 4.17 unidades x M2 (80x30), 2.78 unidades x M2 (90x40), 3.33 unidades x M2 (100x30), 2.78 unidades x M2 (120x30)"
         }
-    ],
+      ],
     "borde-piscina": [
-        {
-            nombre: "Borde Piscina Recto",
-            img: "assets/images/borde-recto.jpg",
-            forma: "Rectangular",
-            medidas: "50x25x5 cm",
-            color: "Beige",
-            rendimiento: "8 unidades por metro lineal"
-        },
-        {
-            nombre: "Borde Piscina Curvo",
-            img: "assets/images/borde-curvo.jpg",
-            forma: "Curvo",
-            medidas: "50x25x5 cm",
-            color: "Gris",
-            rendimiento: "8 unidades por metro lineal"
-        },
-        {
-            nombre: "Borde Piscina Esquina",
-            img: "assets/images/borde-esquina.jpg",
-            forma: "Esquina",
-            medidas: "25x25x5 cm",
-            color: "Beige",
-            rendimiento: "Según diseño"
-        },
-        {
-            nombre: "Borde Piscina Antideslizante",
-            img: "assets/images/borde-antid.jpg",
-            forma: "Rectangular",
-            medidas: "50x25x5 cm",
-            color: "Gris",
-            rendimiento: "8 unidades por metro lineal"
-        }
+    {
+        nombre: "Borde Tipo Ballena",
+        img: "../assets/images/bordepiscina/borde_tipo_ballena.png",
+        forma: "Cuadrado",
+        medidas: "50x50 CM",
+        color: "N/A",
+        rendimiento: "2 unidades por metro lineal"
+    },
+    {
+        nombre: "Borde Tipo L",
+        img: "../assets/images/bordepiscina/borde_tipo_l.png",
+        forma: "Cuadrado",
+        medidas: "50x50 CM",
+        color: "N/A",
+        rendimiento: "2 unidades por metro lineal"
+    },
+    {
+        nombre: "Modelo Solarium",
+        img: "../assets/images/bordepiscina/modelo_solarium.png",
+        forma: "Cuadrado",
+        medidas: "50x50 CM",
+        color: "N/A",
+        rendimiento: "4 unidades por M2" // Asumiendo que "Solarium" se refiere a una superficie y no solo al borde. 1 / (0.5 * 0.5) = 4
+    },
+    {
+        nombre: "Modelo Deck Atérmico Antideslizante",
+        img: "../assets/images/bordepiscina/modelo_deck_atermico_antideslizante.png",
+        forma: "Cuadrado",
+        medidas: "50x50 CM",
+        color: "N/A",
+        rendimiento: "4 unidades por M2" // Similar al solarium, se asume para una superficie.
+    }
     ],
     bloques: [
         {
-            nombre: "Bloque Estándar",
-            img: "assets/images/bloque-estandar.jpg",
-            forma: "Rectangular",
-            medidas: "39x19x14 cm",
-            color: "Gris",
-            rendimiento: "12.5 unidades por m²"
+          nombre: "Bloque de Hormigón",
+          img: "../assets/images/bloques/bloque_hormigon.png", // He unificado la imagen a una genérica para el bloque de hormigón
+          forma: "Rectangular",
+          medidas: "9x19x39 CM, 14x19x39 CM, 19x19x39 CM",
+          color: "Gris",
+          rendimiento: "12.5 unidades x M2" // El rendimiento se mantiene igual ya que las dimensiones de la cara vista son las mismas.
         },
         {
-            nombre: "Bloque Medio",
-            img: "assets/images/bloque-medio.jpg",
-            forma: "Rectangular",
-            medidas: "19x19x14 cm",
-            color: "Gris",
-            rendimiento: "25 unidades por m²"
-        },
-        {
-            nombre: "Bloque Esquinero",
-            img: "assets/images/bloque-esquina.jpg",
-            forma: "Esquina",
-            medidas: "39x19x14 cm",
-            color: "Gris",
-            rendimiento: "Según diseño"
-        },
-        {
-            nombre: "Bloque Decorativo",
-            img: "assets/images/bloque-decorativo.jpg",
-            forma: "Especial",
-            medidas: "39x19x19 cm",
-            color: "Beige",
-            rendimiento: "10 unidades por m²"
-        },
-        {
-            nombre: "Bloque Jardinera",
-            img: "assets/images/bloque-jardinera.jpg",
-            forma: "Especial",
-            medidas: "50x25x20 cm",
-            color: "Gris",
-            rendimiento: "8 unidades por metro lineal"
+          nombre: "Bloque Texturado",
+          img: "../assets/images/bloques/bloque_texturado_20x20x40.png",
+          forma: "Rectangular",
+          medidas: "20x20x40 CM",
+          color: "N/A",
+          rendimiento: "12.5 unidades x M2"
         }
-    ],
-    solerillas: [
+      ],
+      solerillas: [
         {
-            nombre: "Solerilla Recta",
-            img: "assets/images/solerilla-recta.jpg",
-            forma: "Rectangular",
-            medidas: "50x15x8 cm",
-            color: "Gris",
-            rendimiento: "13.3 unidades por metro lineal"
+          nombre: "Solerilla de Jardín Canto Biselado",
+          img: "../assets/images/solerillas/solerilla_jardin_biselado.png",
+          forma: "Rectangular",
+          medidas: "50 cm largo x 20 cm alto x 6 cm ancho",
+          color: "Gris", // Color asumido por ser el más común
+          rendimiento: "2 unidades por metro lineal" // 100 cm / 50 cm = 2
         },
         {
-            nombre: "Solerilla Curva",
-            img: "assets/images/solerilla-curva.jpg",
-            forma: "Curva",
-            medidas: "50x15x8 cm",
-            color: "Gris",
-            rendimiento: "13.3 unidades por metro lineal"
-        },
-        {
-            nombre: "Solerilla Canaleta",
-            img: "assets/images/solerilla-canaleta.jpg",
-            forma: "Canaleta",
-            medidas: "50x20x8 cm",
-            color: "Gris",
-            rendimiento: "10 unidades por metro lineal"
-        },
-        {
-            nombre: "Solerilla Decorativa",
-            img: "assets/images/solerilla-decorativa.jpg",
-            forma: "Especial",
-            medidas: "50x15x8 cm",
-            color: "Beige",
-            rendimiento: "13.3 unidades por metro lineal"
+          nombre: "Solerilla de Jardín Canto Redondo",
+          img: "../assets/images/solerillas/solerilla_jardin_redondo.png",
+          forma: "Rectangular",
+          medidas: "50 cm largo x 20 cm alto x 6 cm ancho",
+          color: "Gris", // Color asumido por ser el más común
+          rendimiento: "2 unidades por metro lineal" // 100 cm / 50 cm = 2
         }
-    ]
+      ],
 };
 
 // Variables globales
@@ -393,7 +393,10 @@ function createProductCard(producto) {
     
     card.innerHTML = `
         <div class="product-image">
-            <i class="fas fa-image"></i>
+            <img src="${producto.img}" alt="${producto.nombre}" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+            <div class="image-placeholder" style="display:none; width:100%; height:200px; background-color:#ecf0f1; align-items:center; justify-content:center; color:#95a5a6; font-size:60px;">
+                <i class="fas fa-image"></i>
+            </div>
         </div>
         <div class="product-info">
             <h3>${producto.nombre}</h3>
