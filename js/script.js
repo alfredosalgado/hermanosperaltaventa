@@ -56,7 +56,15 @@ const productos = {
           medidas: "20x10x6 cm",
           color: "N/A", // El color no está especificado en tu texto
           rendimiento: "50 unidades m2"
-        }
+        },
+        {
+            nombre: "Adocesped",
+            img: "../assets/images/adocretos/adocesped.png",
+            forma: "Rectangular",
+            medidas: "44x30x8 cm",
+            color: "Gris", // El color no está especificado en tu texto
+            rendimiento: "7,5 unidades m2"
+          }
       ],
       pastelones: [
         {
